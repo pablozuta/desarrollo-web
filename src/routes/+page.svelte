@@ -2,6 +2,8 @@
   import '../app.css';
   import imageCouch from './assets/couch.png';
   import dots from './assets/dots.svg';
+  import secondaryImage from './assets/table.png'
+  import lamp from './assets/lamp.png'
 </script>
 
 <main
@@ -135,8 +137,8 @@
               />
             </svg>
           </div>
-          <h3 class="text-3xl font-bold">Servicios</h3>
-          <p>Our products are secure and private out-of-the-box</p>
+          <h3 class="text-3xl font-bold">Diseño</h3>
+          <p>Cada detalle cuenta. Por eso, nuestra pasión por el diseño se refleja en cada proyecto que emprendemos.</p>
         </div>
         <div
           class="
@@ -170,8 +172,8 @@
               />
             </svg>
           </div>
-          <h3 class="text-3xl font-bold">Efficient</h3>
-          <p>Feel good about your wallet and the environment</p>
+          <h3 class="text-3xl font-bold">Tecnología</h3>
+          <p>Nuestra pasión por la tecnología nos lleva a buscar siempre las mejores soluciones para nuestros clientes.</p>
         </div>
         <div
           class="
@@ -205,8 +207,8 @@
               />
             </svg>
           </div>
-          <h3 class="text-3xl font-bold">Proven</h3>
-          <p>Leading the Smart Home world for 10 years</p>
+          <h3 class="text-3xl font-bold">Eficiencia.</h3>
+          <p>Creemos que la eficiencia es fundamental en todo lo que hacemos. Por eso, optimizamos nuestros procesos y tecnologías para ofrecer el mejor servicio posible.</p>
         </div>
       </div>
     </section>
@@ -216,50 +218,50 @@
     >
       <div class="grid gap-4">
         <h2 id="partners" class="text-4xl font-bold text-amber-400">
-          Our Partners
+          Satisfacción.
         </h2>
         <p class="w-full max-w-lg">
-          We’ve partnered with hundreds of smart home brands to help you create
-          a smart home that fits your needs and doesn’t lock you in.
+          El éxito de nuestros clientes es nuestra mayor satisfacción. Nos esforzamos por superar sus expectativas y brindar soluciones excepcionales.
         </p>
       </div>
+
       <div
         class="flex flex-wrap justify-center gap-8 md:gap-x-16 max-w-2xl mx-auto"
       >
         <div
-          class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md"
+          class="p-4 bg-amber-400 shadow-md dark:shadow-xl rounded-md"
         >
-          <img src="./assets/partner1.svg" alt="Partner" class="h-16 w-16" />
+          <img src="https://www.svgrepo.com/show/227480/design-skills-ruler.svg" alt="Partner" class="h-16 w-16" />
         </div>
         <div
-          class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md"
+          class="p-4  bg-amber-300 shadow-md dark:shadow-xl rounded-md"
         >
-          <img src="./assets/partner2.svg" alt="Partner" class="h-16 w-16" />
+          <img src="https://www.svgrepo.com/show/227471/pantone-color-palette.svg" alt="Partner" class="h-16 w-16" />
         </div>
         <div
-          class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md"
+          class="p-4 bg-amber-400 shadow-md dark:shadow-xl rounded-md"
         >
-          <img src="./assets/partner3.svg" alt="Partner" class="h-16 w-16" />
+          <img src="https://www.svgrepo.com/show/227484/browser-ui.svg" alt="Partner" class="h-16 w-16" />
         </div>
         <div
-          class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md"
+          class="p-4 bg-amber-300 shadow-md dark:shadow-xl rounded-md"
         >
-          <img src="./assets/partner4.svg" alt="Partner" class="h-16 w-16" />
+          <img src="https://www.svgrepo.com/show/227477/browser-ui.svg" alt="Partner" class="h-16 w-16" />
         </div>
         <div
-          class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md"
+          class="p-4 bg-amber-500 shadow-md dark:shadow-xl rounded-md"
         >
-          <img src="./assets/partner5.svg" alt="Partner" class="h-16 w-16" />
+          <img src="https://www.svgrepo.com/show/227486/browser-ui.svg" alt="Partner" class="h-16 w-16" />
         </div>
         <div
-          class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md"
+          class="p-4 bg-amber-400 shadow-md dark:shadow-xl rounded-md"
         >
-          <img src="./assets/partner6.svg" alt="Partner" class="h-16 w-16" />
+          <img src="https://www.svgrepo.com/show/227475/color-palette.svg" alt="Partner" class="h-16 w-16" />
         </div>
         <div
-          class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md"
+          class="p-4 bg-amber-500 shadow-md dark:shadow-xl rounded-md"
         >
-          <img src="./assets/partner7.svg" alt="Partner" class="h-16 w-16" />
+          <img src="https://www.svgrepo.com/show/227482/paint-art.svg" alt="Partner" class="h-16 w-16" />
         </div>
       </div>
     </section>
@@ -269,21 +271,19 @@
           class="flex gap-6 flex-wrap flex-col items-start lg:justify-center"
         >
           <div class="flex flex-wrap flex-col items-start gap-2">
-            <h2 class="text-4xl font-bold">Relax, you’re home!</h2>
+            <h2 class="text-4xl font-bold">Un servicio Innovador.</h2>
             <p class="max-w-md">
-              All our supported hardware includes traditional inputs so you can
-              integrate our products into your house in a way that’s best for
-              everyone.
+              Nuestro enfoque es siempre el futuro. Por eso, estamos constantemente buscando nuevas soluciones e ideas innovadoras.
             </p>
           </div>
           <br />
         </div>
-        <img src="./assets/table.png" alt="Table" />
+        <img src={secondaryImage} alt="Table" />
       </div>
 
       <div
         class="
-      bg-teal-400
+      bg-amber-400
       h-24
       xl:h-48
       -mx-8
@@ -303,7 +303,7 @@
   >
     <div class="flex flex-wrap justify-center gap-12 md:gap-6 lg:gap-20">
       <div class="md:flex-1 md:max-w-sm relative">
-        <img src="./assets/lamp.png" alt="Lamp" class="mx-auto" />
+        <img src={lamp} alt="Lamp" class="mx-auto" />
         <a
           href="#"
           class="
@@ -330,28 +330,11 @@
             dark:ring-offset-neutral-800
           "
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            stroke-width="2"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
-            />
-          </svg>
-          <span>Download the App</span>
+         
+           
+          <span>Creatividad</span>
         </a>
-        <img
-          src="/assets/app.svg"
-          alt="app"
-          width="240"
-          class="hidden md:block drop-shadow-xl absolute left-1/2 -translate-x-1/2 max-w-16 xl:max-w-xs"
-        />
+        
         <div
           class="
             absolute
