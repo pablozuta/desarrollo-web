@@ -20,5 +20,9 @@
 		"typescript": "^5.0.0",
 		"vite": "^4.2.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@supabase/supabase-js": "^2.20.0",
+		"yup": "^1.1.1"
+	}
 }
