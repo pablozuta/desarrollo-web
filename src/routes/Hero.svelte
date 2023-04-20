@@ -11,8 +11,8 @@
         class="flex gap-6 flex-wrap flex-col items-start lg:justify-center"
       >
         <div class="flex flex-wrap flex-col items-start gap-2">
-          <h2 class="text-5xl font-bold text-orange-300">
-            Desarrollo Web <span class="text-orange-600"> Moderno.</span> 
+          <h2 class="text-7xl font-bold text-orange-300">
+            Desarrollo Web <span class="text-orange-500"> Moderno</span> 
           </h2>
           <p class="max-w-md text-xl mt-2">
             Nuestro enfoque es el futuro, por eso estamos
